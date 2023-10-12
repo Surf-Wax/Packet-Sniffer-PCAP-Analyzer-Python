@@ -1,5 +1,5 @@
 '''
-PCAP
+PCAP Processor
 
 Written exclusively for Python 3.4.x or above
 
@@ -129,7 +129,7 @@ class PORTS:
 
 if __name__ == '__main__':
 
-        print("PCAP PROCESSOR v 1.0 AUGUST 2021")
+        print("PCAP PROCESSOR")
         
         # Create Lookup Objects
         macOBJ  = MAC()
