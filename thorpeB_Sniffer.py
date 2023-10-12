@@ -1,9 +1,7 @@
 
 '''
-BLACK HAT PYTHON
-SNIFFER EXPERIMENT WITH MODIFICATIONS
-Professor Hosmer
-October 2021
+Python sniffer
+Bryce Thorpe - built off of Professor Hosmer's base
 
 STRUCT UNPACK FORMATTING NOTES
 Format	C Type	            Python type	     Standard size	
@@ -109,15 +107,14 @@ def main():
         print("Protocol:", protocolName)
 
         '''
-        YOUR CODE GOES HERE 
-        You will create a dictionary entry for each unique packet observered
+        Create a dictionary entry for each unique packet observered
         Unique Packets combination of SRC-IP, DST-IP, Protocol
-        you will keep track of the count of each unique packet in the dictionary
+        Keep track of the count of each unique packet in the dictionary
         
-        Note: Before executing your script, launch Chrome and access one or more
-              of the CyberApolis web-sites to generate network traffic
+        Note: Before executing this script, launch Chrome and access one or more
+              web-sites to generate network traffic
         
-        Once you have processed 10,000 packets update load your results
+        Once you have processed 10,000 packets update load the results
         into the prettytable and display.
         '''
 
